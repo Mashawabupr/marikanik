@@ -1,0 +1,38 @@
+.img{width: 80px;
+    object-fit: cover;
+    height: 80px;
+    margin-top: 10px;
+    border-radius: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.side1{display: flex;
+    position: fixed;
+    flex-direction: column;
+    background-color: rgb(161, 82, 161);
+    width: 400px;
+    top:0;
+    bottom:0;
+}
+.side2{
+    position: fixed;
+    flex-direction: column;
+    background-color: plum;
+    width: 300px;
+    left:110px;
+    top:0;
+    bottom:0;
+}
+.in{display: flex;
+justify-content: space-between;
+margin-left: 20px;
+margin-right: 20px;}
+p{color: purple;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 27px;
+}
+.plus{width: 70px;
+height: 70px;
+
+}

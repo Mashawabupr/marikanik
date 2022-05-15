@@ -1,0 +1,15 @@
+.flex{display:flex;height:70px}
+
+.div1{display:flex;
+  
+    width:100px;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;}
+.div2{width:200px;
+    background-color: rgb(195, 167, 221);}
+.item1{background-color:black;
+    color: white;}
+
+
+

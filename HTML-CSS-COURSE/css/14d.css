@@ -1,0 +1,10 @@
+.flex{display: flex;
+justify-content: center;
+align-items: center;
+}
+.modal{background-color: white;width: 400px;border-radius: 10px;}
+p{font-family: Arial, Helvetica, sans-serif;}
+.mod{padding-left: 30px;padding-bottom: 20px;}
+.p1{font-size: 25px;margin-bottom: 10px;
+font-weight: bold;}
+.b{font-size: 17px;height: 30px;width:70px}

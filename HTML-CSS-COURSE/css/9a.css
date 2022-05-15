@@ -1,0 +1,22 @@
+p {
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+.square{display: inline-block;
+    width: 330px;
+    padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+    
+    background-color:rgb(43, 39, 39);
+    border-width: 1px;
+
+
+}
+.y{font-family: Arial;
+    padding-bottom: 10px;
+    font-weight: bold;font-size: large;
+    color:white}
+.add{color:rgb(100, 95, 105);}
