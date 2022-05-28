@@ -6,6 +6,25 @@
 
 
 }
+@media(max-width: 1200px){
+    .container{
+        max-width:970px;
+    }
+
+}
+
+@media(max-width: 992px){
+    .container{
+        max-width:750px;
+    }
+
+}
+@media(max-width: 767px){
+    .container{
+        max-width:none;
+    }
+
+}
 .container{width: 100%;padding:20px;margin:70px 0px;  }
 .albom{margin: 50px;}
 strong,span{margin:30px}
