@@ -1,0 +1,145 @@
+*{color:whitesmoke;
+margin: 0;
+padding: 0;}
+a{margin-right: 50px;
+    text-decoration: none;
+    font-size: 17px;
+}
+a:hover{color:#fc036b;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.contact{background-color: #fc036b;
+    border:none;
+    border-radius: 20px;
+    padding: 5px 15px;
+    font-size: 17px;
+transition: 0.5s;
+}
+.contact:hover{color:#fc036b;
+    
+background-color: white;
+cursor: pointer;
+}
+.mtavari{display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width:100vw;
+    height:100vh;
+
+background-image:url("./img/header-bg.png");
+background-position: bottom;
+
+}
+.header{position:absolute;
+    margin:10px 50px;
+    display:flex;
+    left:0;
+    right:10px;
+    top:10px;
+    justify-content: space-between;
+
+}
+.centre{position: absolute;
+
+    text-align: center;
+    bottom: 140px;
+    
+}
+h2{
+    font-size: 30px;
+}
+h1{margin-top: 50px;
+    font-size: 50px;
+}
+.hr{
+    width: 150px;
+    height: 5px;
+    border: none;
+    margin:10px auto;
+    border-radius: 5px;
+    background-color:#fc036b;
+}   
+.right{
+    justify-content: center;
+    
+    flex-direction:row;
+    
+}
+.mtavari2{margin:100px auto;
+    width:80%;
+}
+
+.up{text-align: center;
+    color:rgb(55, 55, 167)}
+.bottom{display:flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+line-height: 30px;
+
+}
+.bottom img{width:80%;
+transition: 1s;}
+.bottom img:hover{width:100%;
+    cursor: pointer;
+
+}
+.bottom p{color:black;}
+.bottom h3{text-align:center;
+    color:rgb(55, 55, 167)}
+.mtavari3{
+    width:100vw;
+    height:100vh;
+    background-image:url("/ADVENTURE/img/bg2.png")}
+.explore{position: absolute;
+    text-align: center;
+    width:650px;
+    margin: 200px 50px;
+    line-height: 24px;
+    
+}
+.explore h1,p{margin-bottom: 40px;}
+
+.tours{width: 300px;
+    transition: 0.5s;
+   
+}
+.mtavari4{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+ 
+    }
+.tours h1{margin:0;
+    color:rgb(55, 55, 167);
+font-size: 45px;}
+.tours h1:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: #fc036b;
+}
+.tours p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: #fc036b;
+}
+.tours p{color:black}
+.four{width:70%;
+    justify-content: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first,.second{
+    display:flex;
+flex-direction: row;
+}
+.four img{margin:10px;
+    width:80%;
+    transition:0.5s;
+}
+.four img:hover{width: 110%;}

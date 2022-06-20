@@ -1,0 +1,147 @@
+*{margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: cursive;
+    color:#777;
+
+
+}
+@media(max-width: 1200px){
+    .container{
+        max-width:970px;
+    }
+
+}
+
+@media(max-width: 992px){
+    .container{
+        max-width:750px;
+    }
+
+}
+@media(max-width: 767px){
+    .container{
+        max-width:none;
+    }
+
+}
+.container{width: 100%;padding:20px;margin:70px 0px;  }
+.albom{margin: 50px;}
+strong,span{margin:30px}
+
+.purchase{margin:50px;}
+h2{
+    margin: 50px;
+    text-align: center;}
+.musicdisk{display:flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+    
+}
+.musicdisk2{display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px;
+}
+.junior{margin-top:20px ;
+    margin-bottom: 100px;}
+.little{width: 30px;
+    border: none;
+    object-fit: cover;
+    border-radius: 100%;
+text-align: center;}
+.members{width: 200px;
+    display: inline-block;
+    
+}
+.hb{display: inline-block;
+    margin:15px 20px;
+}
+
+.fitmembers{padding: 1.7em 6em;
+    text-align: center;}
+.content{margin:1.3em 7em;}
+p{font-size:1.3rem;}
+
+.to{margin:0}
+.imgbts{
+width:400px;
+object-fit: cover;
+float:left;
+padding-right: 1.1em;
+padding-bottom: 1.1em;
+border-radius: 50%;
+
+}
+.imgbts2{
+    width:400px;
+    object-fit: cover;
+    float:right;
+    padding-left: 1.1em;
+    padding-bottom: 1.1em;
+    
+    }
+.section-header{text-align: center;
+    margin-top: 80px;
+    font-size:2rem;}
+
+.nav ul{margin: 0;}
+.nav li{display: inline; 
+}
+.nav a{color: white;
+    text-decoration: none;
+    padding: 1em;
+    display: inline-block;
+}
+h1{color:white;
+    font-weight:bold;
+    font-size: 77px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.hover:hover{background-color: rgba(255,255,255,0.3)}
+.main-nev{text-align: center;
+    font-size: 1.1rem;
+    font-weight:bold;
+}
+hr{ color:rgba(255,255,255,0.3)}
+.main-nev li{padding: 0 5%;}
+.main-header{background-image: url("brs — копия.jpg");
+background-size: cover;
+background-color: rgba(218, 199, 199, 0.6);
+background-blend-mode: multiply;
+
+}
+
+.button1{
+    color:#6922a0;
+    
+    border-color: #6922a0;
+    background-color: white;
+    cursor:pointer;
+    height:70px;
+    width:300px;
+    margin: 30px;
+}
+
+.tickets{display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button,.button1,.button3{color:#6922a0;
+    border-color: #6922a0;
+    background-color: white;
+    cursor:pointer;
+    font-weight: bold;
+border-radius: 10px;
+padding: 7px;
+transition: 0.2s;
+}
+button:hover{background-color:#6922a0;
+    color:white;
+    box-shadow: 4px 4px 17px #6922a0;
+
+}
